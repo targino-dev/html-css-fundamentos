@@ -1,0 +1,25 @@
+* {
+    margin: 1% 0 0 1%;
+}
+
+table {
+    font-size: 1.2em;
+    color: white;
+}
+
+.moda-cab {
+    background-color: #BB86FC;
+}
+
+.moda-cas {
+    background-color: #00C4B4;
+}
+
+td {
+    background-color: #424250;
+    padding: 7px;
+}
+
+th {
+    padding: 10px;
+}
