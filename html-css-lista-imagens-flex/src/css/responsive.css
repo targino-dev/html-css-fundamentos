@@ -1,0 +1,8 @@
+@media(max-width: 970px) {
+    .pinturas {
+        width: 950px;
+        margin: 20px 10px;
+        justify-content: flex-start;
+
+    }
+}
