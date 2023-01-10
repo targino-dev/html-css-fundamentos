@@ -1,1 +1,10 @@
 
+.background {
+    display: grid;
+    background: url(../images/bg-desktop.svg);
+    background-size: cover;
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
