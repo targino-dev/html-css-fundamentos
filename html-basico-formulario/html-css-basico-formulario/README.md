@@ -1,8 +1,8 @@
 # Estrutura de Formulário  :page_facing_up:
 
-``` HTML5 - nível básico ```
+``` HTML5 e CSS3 - nível básico ```
 
-### Modelo: Requisitos informativos para cadastro no Facebook  /Apenas HTML5
+### Modelo: Requisitos informativos para cadastro.
 
 #### Conteúdo assimilado:
 
@@ -18,3 +18,4 @@
 - Tipos de Inputs: texto, senha, email, radio, arquivos, enviar...;
 - Rótulos para nomeações dos Inputs: Label;
 - Caixa de seleção e opções: Select e Option;
+- Adicionado folha de estilo CSS.
