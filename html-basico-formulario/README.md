@@ -2,7 +2,7 @@
 
 ``` HTML5 - nível básico ```
 
-### Modelo: Requisitos informativos para cadastro no Facebook  /Apenas HTML5
+### Modelo: Requisitos informativos para cadastro.  /Apenas HTML5
 
 #### Conteúdo assimilado:
 
