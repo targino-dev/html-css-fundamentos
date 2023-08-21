@@ -1,0 +1,87 @@
+/* HTML */
+html {
+    background-color: #9DBCD4;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+
+/* Estilos para todo o formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(109, 90, 207, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", Arial, sans-serif;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: "Roboto", serif;
+    color: #3b316d;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Estilos para os títulos */
+h2, h3 {
+    color: #3b316d;
+    margin-bottom: 10px; 
+    text-align: center; 
+}
+
+h4 {
+    text-align: center;
+}
+
+/* Estilos para os campos de entrada */
+input[type="text"], input[type="password"], select, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(231, 209, 0.9);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilos para os botões */
+input[type="submit"] {
+    background-color: #FFFD01;
+    color: #6D5ACF;
+    padding: 10px 20px;
+    border: 2px solid #6D5ACF;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 10px; /* Adicione um espaço entre os botões e os campos acima */
+    transition: box-shadow 0.3s, font-weight 0.3s; /* Adicionar transição suave */
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 0 20px rgb(231, 209, 0.9); /* Adicionar sombra ao redor */
+    font-weight: 700; /* Tornar as letras mais negritas */
+}
+
+
+/* Estilos para os rótulos dos radio buttons */
+label[for="feminino"], label[for="masculino"], label[for="personalizado"] {
+    margin-right: 10px;
+}
+
+/* Estilos para os radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+/* Estilos para os select boxes */
+select {
+    padding: 8px;
+}
