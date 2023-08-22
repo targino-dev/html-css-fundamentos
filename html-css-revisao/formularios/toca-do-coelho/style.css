@@ -1,0 +1,353 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Share Tech Mono", "Orbitron", 'Agdasima', cursive;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.h1-glitch {
+  font-size: 60px;
+  position: relative;
+  display: inline-block;
+  animation: glitch 1s infinite;
+}
+
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+h1:before,
+h1:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+h1:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+h1:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg); 
+  }
+}
+
+
+h2.titulo {
+  font-family: "Orbitron";
+  font-size: 25px;
+  color: #00A300;
+  margin-top: 30px;
+  text-decoration: wavy;
+  font-weight: 300;
+}
+
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+input[type="submit"] {
+  background-color: #00FF00;
+  cursor: pointer;
+  border: 2px solid #00A300; /* Adicione a propriedade border para criar a borda */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Orbitron", sans-serif; /* Estilo de fonte */
+  font-weight: bold; /* Peso da fonte */
+  text-transform: uppercase; /* Transformação de texto para maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  font-size: 15px;
+  color: #000;
+  transition: 0.7s;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 0 10px #fff, 0 0 20px #00A300, 0 0 30px #00FF00; /* Adicione um efeito de brilho no hover */
+}
+
+
+@media (max-width: 915px) {
+  .h1-glitch {
+    font-size: 50px; /* Reduza o tamanho da fonte para telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  .h1-glitch {
+    font-size: 40px; /* Reduza o tamanho da fonte para telas menores */
+  }
+}
+
+@media (max-width: 618px) {
+  .h1-glitch {
+    font-size: 30px; /* Reduza o tamanho da fonte para telas menores */
+    margin-bottom: 10%;
+  }
+
+  h1:before,
+  :after{
+    content: none;
+    position: absolute;
+    left: 0;
+}
+}
+
+
+
+@media (max-width: 480px) {
+  .h1-glitch {
+  font-size: 30px;
+  position: relative;
+  display: inline-block;
+  animation: none;
+  }
+
+  h1:before,
+  h1:after{
+    content: none;
+    position: absolute;
+    left: 0;
+  }
+}body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Share Tech Mono", "Orbitron", 'Agdasima', cursive;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.h1-glitch {
+  font-size: 60px;
+  position: relative;
+  display: inline-block;
+  animation: glitch 1s infinite;
+}
+
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+h1:before,
+h1:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+h1:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+h1:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg); 
+  }
+}
+
+
+h2.titulo {
+  font-family: "Orbitron";
+  font-size: 25px;
+  color: #00A300;
+  margin-top: 30px;
+  text-decoration: wavy;
+  font-weight: 300;
+}
+
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+input[type="submit"] {
+  background-color: #00FF00;
+  cursor: pointer;
+  border: 2px solid #00A300; /* Adicione a propriedade border para criar a borda */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Orbitron", sans-serif; /* Estilo de fonte */
+  font-weight: bold; /* Peso da fonte */
+  text-transform: uppercase; /* Transformação de texto para maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  font-size: 15px;
+  color: #000;
+  transition: 0.7s;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 0 10px #fff, 0 0 20px #00A300, 0 0 30px #00FF00; /* Adicione um efeito de brilho no hover */
+}
+
+
+@media (max-width: 915px) {
+  .h1-glitch {
+    font-size: 50px; /* Reduza o tamanho da fonte para telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  .h1-glitch {
+    font-size: 40px; /* Reduza o tamanho da fonte para telas menores */
+  }
+}
+
+@media (max-width: 618px) {
+  .h1-glitch {
+    font-size: 30px; /* Reduza o tamanho da fonte para telas menores */
+    margin-bottom: 10%;
+  }
+
+  h1:before,
+  :after{
+    content: none;
+    position: absolute;
+    left: 0;
+}
+}
+
+
+
+@media (max-width: 480px) {
+  .h1-glitch {
+  font-size: 30px;
+  position: relative;
+  display: inline-block;
+  animation: none;
+  }
+
+  h1:before,
+  h1:after{
+    content: none;
+    position: absolute;
+    left: 0;
+  }
+}
