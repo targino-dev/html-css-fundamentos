@@ -1,0 +1,91 @@
+body {
+    background-image: url("../imagens/bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.icone {
+  text-decoration: none;
+}
+
+.icone a {
+    text-decoration: none;
+    color: #161a19;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+.icone.a h1 {
+  font-size: 26px;
+}
+
+.icone-img {
+    width: 15%;
+}
+
+.formulario {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+label {
+    text-align: left;
+}
+
+input[type="text"], input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    font-family: "Roboto Condensed";
+    font-size: 95%;
+    background-color: #161a19;
+    color: #fff;
+    margin-top: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out; /* Adicione uma transição suave */
+}
+
+input[type="submit"]:hover {
+    background-color: #727e72;
+    box-shadow: 0px 0px 10px rgba(250, 249, 249, 0.973); /* Adicione uma sombra suave */
+}
+
+  /* Adicionando regras de responsividade */
+  /* Adicione estas regras no final do seu arquivo CSS */
+
+/* Regras de responsividade */
+@media screen and (max-width: 768px) {
+    .formulario {
+        max-width: 80%; /* Reduza a largura máxima do formulário */
+        margin: 30px auto; /* Ajuste as margens */
+    }
+
+    .icone
+}
