@@ -1,0 +1,88 @@
+body {
+    background-image: url("../imagens/bg2.png"); /* Caminho para a imagem de fundo */
+    background-color: rgba (0,0,0,0.5);
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir todo o corpo */
+    background-attachment: fixed; /* Fixa a imagem no fundo */
+    color: #2020d1; /* Cor do texto azul */
+    font-family: Arial, sans-serif; /* Fonte padrão (altere conforme necessário) */
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove preenchimento padrão do corpo */
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    max-width: 90%;
+}
+
+.logo {
+    width: 10%;
+}
+
+.nome {
+    text-decoration: none;
+    margin-top: -2px;
+    font-family: "Raleway";
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+.formulario {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3); /* Adicione um fundo branco com opacidade para o formulário */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto Condensed";
+}
+
+.formulario h2 {
+    text-align: center;
+    font-size: 5vh;
+    font-family: "Roboto Condensed";
+}
+
+#nome, #email, #mensagem {
+    font-size: 2.5vh;
+    width: 98%;
+}
+
+label {
+    float: left; /* Para colocar a label para a esquerda */
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.formulario input[type="submit"] {
+    display: inline-block;
+    justify-content: center;
+    background-color: #2020d1; /* Cor de fundo do bot�o */
+    margin: 10px auto;
+    color: white;
+    padding: 2vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 3vh;
+    font-family: "Roboto Condensed";
+    transition: 0.7s;
+}
+
+
+.formulario input[type="submit"]:hover {
+  box-shadow: 0 0 10px #fff, 0 0 20px #1b1b9b, 0 0 30px #2020d1; /* Adicione um efeito de brilho no hover */
+}
+
+
+/* Regras de responsividade */
+@media screen and (max-width: 768px) {
+    .formulario {
+        width: 90%;
+    }
+
+}
