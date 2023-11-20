@@ -1,6 +1,6 @@
 # Estrutura de Formulário  :page_facing_up:
 
-``` HTML5 e CSS3 - nível básico ```
+``` HTML5 e CSS3 ```
 
 ### Modelo: Requisitos informativos para cadastro
 
