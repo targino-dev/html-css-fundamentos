@@ -1,6 +1,6 @@
 # Estrutura de Formulário  :page_facing_up:
 
-### Modelo: Requisitos informativos para cadastro e método de envio 
+### Modelo: Requisitos informativos para cadastro
 
 > HTML5
 
@@ -8,7 +8,7 @@
   <img src="https://github.com/targino-dev/html-css-fundamentos/assets/107009616/0f075063-be37-4798-a588-2dbac7817c25" width="500px">
 </div>
 
-### Assimilado:  🧠:
+### Assimilado:  🧠
 - Tipo de documento e idioma;
 - Leitura de caracteres, compatibilidade de navegadores, padrão de responsividade e título;
 - Compatibilidade básica de navegadores;
