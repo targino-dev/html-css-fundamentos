@@ -14,5 +14,7 @@
 - Leitura de caracteres, compatibilidade de navegadores, padrão de responsividade e título;
 - Compatibilidade básica de navegadores;
 - Títulos de texto, parágrafos e quebras de linha;
+- Implantação de animação com animation no CSS: nome | tempo para iniciar | estilo | duração
+- Implantação da @keyframe: classe {0%  {transform: ;} 50% {transform: ;} e 100% {transform: ;}}
 
 
