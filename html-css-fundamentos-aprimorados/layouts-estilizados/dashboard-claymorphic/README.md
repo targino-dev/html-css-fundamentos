@@ -1,6 +1,6 @@
-# Dashboard Claymórfica  :page_facing_up:
+# Claymorphic Dashboard  :page_facing_up:
 
-### Modelo: Codepen - [Grid Gallery](https://codepen.io/vsharma20v/embed/YzweOox/?theme-id=modal)
+### Modelo: Codepen - [Claymorphic Dashboard](https://codepen.io/vsharma20v/embed/YzweOox/?theme-id=modal)
 
 > HTML5 e CSS3
 
