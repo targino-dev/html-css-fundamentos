@@ -7,8 +7,10 @@
 ### Modelo: [Figma do exercício com Flexbox do curso DevQuest](https://www.figma.com/file/DYk9DZr6urB9MZ4iNt1a61/Desafio-HTML-%2B-CSS?node-id=0%3A1&t=xtR7eftqFCRx5TVo-0)
 
 <div align="center"> 
-  <img src="https://github.com/targino-dev/html-css-fundamentos/assets/107009616/aa45b7f4-0f5f-4aef-9bb1-28e68a2a5889" width="820px" height="200px">
-  <img src="https://github.com/targino-dev/html-css-fundamentos/assets/107009616/32261a1b-71b0-49a0-b656-9e07bdcad48f" width="400px" height="600px">
+  <img src="https://github.com/targino-dev/html-css-fundamentos/assets/107009616/aa45b7f4-0f5f-4aef-9bb1-28e68a2a5889" width="700px" height="110px">
+</div>
+<div align="center"> 
+  <img src="https://github.com/targino-dev/html-css-fundamentos/assets/107009616/32261a1b-71b0-49a0-b656-9e07bdcad48f" width="200px" height="380px">
 
   </div>
 
