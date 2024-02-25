@@ -15,7 +15,7 @@ body {
     background-color: hsl(257, 40%, 49%);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 95%;
+    height: 100%;
 }
 
 /* CABEÇALHO */
@@ -73,7 +73,7 @@ header {
 
 .botao {
     background-color: white;
-    box-shadow: 1px 1px 2px black;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.4);
     color: hsl(300, 69%, 71%);
     padding: 0.9em 4em 0.9em 4em;
     border-radius: 10em;
@@ -91,6 +91,7 @@ header {
 }
 
 .botao:hover {
+
     background-color: hsl(300, 69%, 71%);
 }
 
